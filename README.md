@@ -1,4 +1,4 @@
-![Yeap china](https://github.com/MoonkeyBoy/SongLab/blob/master/img/china.svg)![Yeap awesome](https://github.com/MoonkeyBoy/SongLab/blob/master/img/awesome.svg)
+![Yeap china](https://github.com/MoonkeyBoy/SongLab/blob/master/img/chinese.svg)![Yeap awesome](https://github.com/MoonkeyBoy/SongLab/blob/master/img/awesome.svg)
 
 # SongLabSecurity
 
