@@ -1,20 +1,20 @@
 /*have used*/
 .content-width {
-    width: 1340px;
+    width: 1100px;
     margin: 0 auto;
 }
 .news-container{
-    min-height: 530px;
+    min-height: 200px;
 }
 .new-container {
-    margin-top: 40px;
-    height: 430px;
+    margin-top: 80px;
+    height: 400px;
 }
 .new-card-div{
     box-shadow: 0 0 20px #ccc;
-    margin-left:23px;
-    width:400px;
-    height: 430px;
+    margin-left:0px;
+    width:300px;
+    height: 400px;
     cursor: pointer;
     background-color: white;
 }
