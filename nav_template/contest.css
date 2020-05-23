@@ -1,0 +1,25 @@
+/*have used*/
+.content-width {
+    width: 1340px;
+    margin: 0 auto;
+}
+.news-container{
+    min-height: 530px;
+}
+.new-container {
+    margin-top: 40px;
+    height: 430px;
+}
+.new-card-div{
+    box-shadow: 0 0 20px #ccc;
+    margin-left:23px;
+    width:400px;
+    height: 430px;
+    cursor: pointer;
+    background-color: white;
+}
+.new-card-div:hover{
+    color:#E37A65!important;
+    transform: translate3d(0px, -10px, 0px);
+    transition: transform 0.2s linear 0s;
+}
