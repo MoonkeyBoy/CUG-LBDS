@@ -83,7 +83,7 @@ body {
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
-	font-size: 1.0em;
+
 	width: auto;
 	white-space: nowrap;
     text-align: left;
@@ -115,7 +115,7 @@ tt {
 }
 
 pre, tt {
-	font-size: 90%;
+
 	font-family: monaco, monospace;
 }
 
@@ -193,12 +193,12 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 165%;
+
 }
 
 h2 {
 	padding-top: 0.8em;
-	font-size: 125%;
+
 }
 
 h2 + h3 {
@@ -206,7 +206,7 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 110%;
+
 	border-bottom: none;
 }
 
@@ -224,7 +224,7 @@ pre {
 }
 
 div#footer {
-	font-size: small;
+
 	border-top: 1px solid #c0c0c0;
 	padding-top: 0.1em;
 	margin-top: 4.0em;
@@ -443,15 +443,15 @@ table.imgtable, table.imgtable td {
 
 /* Publication */
 p.pub_title {
-	font-size: 16px;
+
 	font-weight: bold;
 	margin-bottom: 4px;
 }
 
 p.pub_author{
-	font-size: 14px
+
 }
 
 p.pub_link{
-	font-size: 14px
+
 }
