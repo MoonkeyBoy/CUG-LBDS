@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://v3.bootcss.com/examples/justified-nav/ -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/icon.png">
+    <title>中国地质大学(武汉) 信息安全实验室</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../nav_template/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../nav_template/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../nav_template/justified-nav.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../nav_template/ie-emulation-modes-warning.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../nav_template/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        $(function(){
+            /*公共部分
+             * 导航栏
+             * footer CopyRight
+             */
+            $(".headerpage").load("../head.html");
+            $(".footerpage").load("../footer.html");
+        });
+    </script>
+	 <title>学生活动</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #eeeeee;
+        }
+
+        .container {
+            width: 1000px;
+            height: 500px;
+            margin: 60px auto;
+            position: relative;
+        }
+
+        .pic {
+            width: 280px;
+        }
+
+        .container img:hover {
+            box-shadow: 15px 15px 20px rgba(50, 50, 50, 0.4);
+            transform: rotate(0deg) scale(1.20);
+            -webkit-transform: rotate(0deg) scale(1.20);
+            z-index: 10;
+        }
+
+        .container img {
+            padding: 10px 10px 15px;
+            background: white;
+            border: 1px solid #dddddd;
+            box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.4);
+            -webkit-transition: all 0.5s ease-in;
+            -moz-transition: all 0.5s ease-in;
+            -ms-transition: all 0.5s ease-in;
+            -o-transition: all 0.5s ease-in;
+            transition: all 0.5s ease-in;
+            position: absolute;
+            z-index: 1;
+        }
+
+        /*第一张图片*/
+        .pic1 {
+
+            left: 400px;
+            right: 0;
+            transform: rotate(-5deg);
+            -webkit-transform: rotate(-5deg);
+            -moz-transform: rotate(-5deg);
+            -o-transform: rotate(-5deg);
+        }
+
+        .pic2 {
+            left: 200px;
+            top: 0;
+            transform: rotate(-20deg);
+            -webkit-transform: rotate(-20deg);
+        }
+
+        .pic3 {
+            left: 0;
+            top: 0;
+            transform: rotate(5deg);
+            -webkit-transform: rotate(5deg);
+        }
+
+        .pic4 {
+            bottom: 100px;
+            left: 700px;
+            transform: rotate(10deg);
+            -webkit-transform: rotate(10deg);
+        }
+
+        .pic5 {
+            right: 20px;
+            top: 0;
+            transform: rotate(5deg);
+            -webkit-transform: rotate(5deg);
+        }
+
+        .pic6 {
+            left: 200px;
+            bottom: 100px;
+            transform: rotate(10deg);
+            -webkit-transform: rotate(10deg);
+        }
+
+        .pic7 {
+            left: 0;
+            bottom: 100px;
+            transform: rotate(-3deg);
+            -webkit-transform: rotate(-3deg);
+        }
+
+        .pic8 {
+            left: 500px;
+            bottom: 100px;
+            transform: rotate(-3deg);
+            -webkit-transform: rotate(-3deg);
+        }
+        .div2{
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 30px;
+
+        }
+        .div2 a{
+            text-decoration:none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 引入顶部导航 -->
+        <div class="headerpage"></div>
+        <!--顶部导航 over-->
+
+        <!--中部主体-->
+        <p><div class="container">
+			<img class="pic pic1" src="pic/1.jpg">
+			<img class="pic pic2" src="pic/2.jpg">
+			<img class="pic pic3" src="pic/3.jpg">
+			<img class="pic pic4" src="pic/4.jpg">
+			<img class="pic pic5" src="pic/5.jpg">
+			<img class="pic pic6" src="pic/6.jpg">
+			<img class="pic pic7" src="pic/7.jpg">
+			<img class="pic pic8" src="pic/8.jpg">
+		</div></p>
+        <!--中部主体 over-->
+
+        <!--引入footer-->
+        <div class="footerpage"></div>
+        <!--footer over-->
+
+
+    </div>
+</body>
+</html>
