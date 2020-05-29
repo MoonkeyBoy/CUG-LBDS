@@ -14,6 +14,7 @@ ul li{ list-style:none;}
 .Choices_head:after{ right:175px;}
 
 .Choices_content{ width:1170px; height:594px; float:left; margin-left:3px;}
+.Choicesprev{ width:38px; height:37px; float:left; margin-left:0px; margin-top:12px; cursor:pointer;}
 .Choicesnext{ width:38px; height:37px; float:left; margin-left:1070px; margin-top:12px; cursor:pointer;}
 .Choices_banner{ width:1170px; height:399px; float:left; margin-top:39px; overflow: hidden;}
 .Choices_banner ul{ width: 12000px;  overflow: hidden;}

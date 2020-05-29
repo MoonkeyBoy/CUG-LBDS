@@ -9,14 +9,14 @@ $(function () {
 			$(".Choicestel ul>li").eq(0).appendTo($(".Choicestel ul"));  
 			$(".Choicestel ul").css({marginLeft:"0px"},600);
 		})  
-		/*$('.Choicesprev').click(function () {  
+		$('.Choicesprev').click(function () {  
 			$(".Choices_banner ul").css('marginLeft','-1184px');  
 			$(".Choices_banner ul>li").eq(3).prependTo($(".Choices_banner ul"));  
 			$(".Choices_banner ul").animate({marginLeft:"0px"},600);  
 			$(".Choicestel ul").css('marginLeft','-1184px');  
 			$(".Choicestel ul>li").eq(3).prependTo($(".Choicestel ul"));  
 			$(".Choicestel ul").css({marginLeft:"0px"},600);  
-		})  */
+		})  
 	})
 	  
 $(function(){	
