@@ -75,25 +75,25 @@ function process_input(input)
 		var competitions2 = "<li>\n" +
             "                <a href=\"https://www.comap.com/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">美国大学生数学建模竞赛</a>\n" +
             "                <ul >\n" +
-            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">美国大学生数学建模竞赛（MCM/ICM）由美国数学及其应用联合会主办，是唯一的国际性数学建模竞赛，也是世界范围内最具影响力的数学建模竞赛;</li>\n" +
-            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">比赛时间:大致为每年的1月底-2月初;</li>\n" +
+            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2;color: white\">美国大学生数学建模竞赛（MCM/ICM）由美国数学及其应用联合会主办，是唯一的国际性数学建模竞赛，也是世界范围内最具影响力的数学建模竞赛;</li>\n" +
+            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2;color: white\">比赛时间:大致为每年的1月底-2月初;</li>\n" +
             "                </ul>\n" +
             "            </li>";
 
 		var competitions3 = "<li>\n" +
             "                <a href=\"http://www.ciscn.cn/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">全国大学生信息安全竞赛</a>\n" +
             "                <ul>\n" +
-            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">指导单位：中央网信办网络安全协调局教育部高教司共青团中央学校部</li>\n" +
-            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">主办单位：教育部高等学校信息安全专业教学指导委员会</li>\n" +
-            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">比赛时间：大致为每年的7月底-8月初</li>\n" +
+            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2;color: white\">指导单位：中央网信办网络安全协调局教育部高教司共青团中央学校部</li>\n" +
+            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2;color: white\">主办单位：教育部高等学校信息安全专业教学指导委员会</li>\n" +
+            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2;color: white\">比赛时间：大致为每年的7月底-8月初</li>\n" +
             "                </ul>\n" +
             "            </li>";
 
 		var competitions4 = "  <li>\n" +
             "                <a href=\"//http://www.apmcm.org/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">亚太地区大学生数学建模竞赛:</a>\n" +
             "                <ul>\n" +
-            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">主办单位：北京图象图形学学会、亚太地区大学生数学建模竞赛组委会 承办单位：校苑数模;</li>\n" +
-            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">比赛时间：大致为每年的11月底-12月初</li>\n" +
+            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2;color: white\">主办单位：北京图象图形学学会、亚太地区大学生数学建模竞赛组委会 承办单位：校苑数模;</li>\n" +
+            "                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2;color: white\">比赛时间：大致为每年的11月底-12月初</li>\n" +
             "                </ul>\n" +
             "            </li>" +
             "</ul>";
