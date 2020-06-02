@@ -4,8 +4,7 @@ var id = 0;
 function initialize()
 {
 	document.getElementById('Hackindex').innerHTML = "<div id=\"console\"></div>";
-	delayed_type("Hello world & Hi~~", 50, take_input);
-
+	delayed_type("Hello world & Welcome~~\n", 50, take_input);
     $(".headerpage").load("../head.html");
     $(".footerpage").load("../footer.html");
 }
@@ -99,7 +98,7 @@ function process_input(input)
             "</ul>";
 
 		arr = new Array(competitions1, competitions2, competitions3, competitions4);
-		delayed_type(arr, 500, take_input);
+		delayed_type(arr, 50, take_input);
 	}
 	else if(input == "contact")
 	{
