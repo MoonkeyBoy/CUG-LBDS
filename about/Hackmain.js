@@ -52,19 +52,10 @@ function process_input(input)
 	if(input == "help")
 	{
 		document.getElementById('console').innerHTML += "Try one of these commands :<br>";
-		arr = new Array("<span class=\"highlight\">about<br></span>",
+		arr = new Array(
             "<span class=\"highlight\">competitions<br></span>",
-            "<span class=\"highlight\">contact<br></span>",
             "<span class=\"highlight\">clear</span>");
 		delayed_type(arr, 200, take_input);
-	}
-	else if(input == "about")
-	{
-		var about = "Song & Yang Lab:<br>";
-		about+="Nice to meet you!<br>"
-		about+="<br>"
-		document.getElementById('console').innerHTML += "<span class=\"text\">"+about+"</span>";
-		take_input();
 	}
 	else if(input == "competitions")
 	{
@@ -100,19 +91,43 @@ function process_input(input)
 		arr = new Array(competitions1, competitions2, competitions3, competitions4);
 		delayed_type(arr, 50, take_input);
 	}
-	else if(input == "contact")
-	{
-		var phone = "<span class=\"highlight\">Phone: </span>";
-		phone += "<span class=\"text\"><br></span>";
+	else if (input == "Files"){
+		var files = "&nbsp;&nbsp;May you could download Files from&nbsp;"+"<a href=\"//https://github.com/MoonkeyBoy/SongLab/tree/master/about/DownloadFiles\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">Here:</a>\n";
+		arrfiles = new Array(files);
+		delayed_type(arrfiles, 50, take_input);
+	}
+	else if (input == "Applications"){
 
-		var mail = "<span class=\"highlight\">E-mail: </span>";
-		mail += "<span class=\"text\">Jun song:songjun@cug.edu.cn<br>&emsp;&emsp;&emsp;&emsp;&emsp;Fan yang:12331086@qq.com<br></span>";
+		var Applications1 = "Maybe the following application will help you to improve you skills:" +
+			"<ul>";
 
-		var address = "<span class=\"highlight\">Address: </span>";
-		address += "<span class=\"text\">Location: School of computer science, China University of Geosciences (Wuhan), No. 68, Jincheng Street, Donghu New Technology Development Zone, Wuhan, Hubei Province,China<br></span>";
+		var Applications2 = "<li>\n" +
+			"                <a href=\"https://www.mendeley.com/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">Mendeley</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Document management software</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS Linux IOS Web</li>\n" +
+			"                </ul>\n" +
+			"            </li>";
 
-		arr = new Array(phone, mail, address);
-		delayed_type(arr, 500, take_input);
+		var Applications3 = "<li>\n" +
+			"                <a href=\"http://www.gnuplot.info/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">Gunplot</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Display Experimental results</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS Linux</li>\n" +
+			"                </ul>\n" +
+			"            </li>";
+
+		var Applications4 = "  <li>\n" +
+			"                <a href=\"https://www.xmind.cn/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">Xmind</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Arrange thoughts in order and become a rapid thinker.</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS</li>\n" +
+			"                </ul>\n" +
+			"            </li>" +
+			"</ul>";
+		
+		arrApplications = new Array(Applications1,Applications2,Applications3,Applications4);
+		delayed_type(arrApplications, 50, take_input);
 	}
 	else if(input == "clear")
 	{
