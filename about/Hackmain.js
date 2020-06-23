@@ -203,10 +203,17 @@ function process_input(input)
 			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">data analysis</li>\n" +
 			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS</li>\n" +
 			"                </ul>\n" +
-			"            </li>"+
-			"</ul>";
+			"            </li>";
 		
-		arrApplications = new Array(Applications1,Applications2,Applications3,Applications4);
+		var Applications15 = "<li>\n" +
+			"                <a href=\"https://pcmacstore.com/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">ShadowsocksX-NG</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Scientifically surf the internets</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">MacOS</li>\n" +
+			"                </ul>\n" +
+			"            </li>"+
+		"</ul>";
+		arrApplications = new Array(Applications1,Applications2,Applications3,Applications4,Applications5,Applications6,Applications7,Applications8,Applications9,Applications10,Applications11,Applications12,Applications13,Applications14,Applications15);
 		delayed_type(arrApplications, 50, take_input);
 	}
 	else if(input == "clear")
