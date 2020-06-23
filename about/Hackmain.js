@@ -123,7 +123,87 @@ function process_input(input)
 			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Arrange thoughts in order and become a rapid thinker.</li>\n" +
 			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS</li>\n" +
 			"                </ul>\n" +
-			"            </li>" +
+			"            </li>";
+		
+		var Applications5 = "<li>\n" +
+			"                <a href=\"http://www.notion.so/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">notion</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Note management software</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS Linux Web</li>\n" +
+			"                </ul>\n" +
+			"            </li>";
+		
+		var Applications6 = "<li>\n" +
+			"                <a href=\"https://shadowsocks.org/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">Shadowsocks</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Scientifically surf the internets</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS Linux</li>\n" +
+			"                </ul>\n" +
+			"            </li>";
+		
+		var Applications7 = "<li>\n" +
+			"                <a href=\"https://www.texstudio.org/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">Texstudio+Texlive</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Literature editor</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS Linux</li>\n" +
+			"                </ul>\n" +
+			"            </li>";
+		
+		var Applications8 = "<li>\n" +
+			"                <a href=\"https://mathpix.com/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">Mathpix Snipping Tool</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Formula editings</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS Linux</li>\n" +
+			"                </ul>\n" +
+			"            </li>";
+		
+		var Applications9 = "<li>\n" +
+			"                <a href=\"https://onedrive.live.com/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">OneDrive</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">File synchronization</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS Web</li>\n" +
+			"                </ul>\n" +
+			"            </li>";
+		
+		var Applications10 = "<li>\n" +
+			"                <a href=\"https://office.live.com/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">PowerPoint</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">3D drawings</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS</li>\n" +
+			"                </ul>\n" +
+			"            </li>";
+		
+		var Applications11 = "<li>\n" +
+			"                <a href=\"https://www.grammarly.com/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">Grammarly</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Grammar correction</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">MacOS Web</li>\n" +
+			"                </ul>\n" +
+			"            </li>";
+		
+		var Applications12 = "<li>\n" +
+			"                <a href=\"https://github.com/ripperhe/Bob/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">Bob</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Quick translation</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">MacOS</li>\n" +
+			"                </ul>\n" +
+			"            </li>";
+		
+		var Applications13 = "<li>\n" +
+			"                <a href=\"https://pcmacstore.com/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">Countdown Time Plus</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Schedule reminder</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">MacOS</li>\n" +
+			"                </ul>\n" +
+			"            </li>";
+		
+		var Applications14 = "<li>\n" +
+			"                <a href=\"https://www.vosviewer.com/\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.5\">VOSviewer</a>\n" +
+			"                <ul>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">data analysis</li>\n" +
+			"                    <li style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:1.2;color: white\">Windows MacOS</li>\n" +
+			"                </ul>\n" +
+			"            </li>"+
 			"</ul>";
 		
 		arrApplications = new Array(Applications1,Applications2,Applications3,Applications4);
