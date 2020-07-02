@@ -54,7 +54,12 @@ function process_input(input)
 		document.getElementById('console').innerHTML += "Try one of these commands :<br>";
 		arr = new Array(
             "<span class=\"highlight\">competitions<br></span>",
-            "<span class=\"highlight\">clear</span>");
+		"<span class=\"highlight\">Files</span>",
+			"<span class=\"highlight\">help</span>",
+				"<span class=\"highlight\">Applications</span>",
+			"<span class=\"highlight\">clear</span>",
+
+		);
 		delayed_type(arr, 200, take_input);
 	}
 	else if(input == "competitions")
