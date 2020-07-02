@@ -55,8 +55,8 @@ function process_input(input)
 		arr = new Array(
             "<span class=\"highlight\">competitions<br></span>",
 			"<span class=\"highlight\">Files<br></span>",
-			"<span class=\"highlight\">help<br></span>",
 			"<span class=\"highlight\">Applications<br></span>",
+			"<span class=\"highlight\">help<br></span>",
 			"<span class=\"highlight\">clear<br></span>",
 
 		);
