@@ -97,7 +97,7 @@ function process_input(input)
 		delayed_type(arr, 50, take_input);
 	}
 	else if (input == "Files"){
-		var files = "&nbsp;&nbsp;May you could download Files from&nbsp;"+"<a href=\"../about/DownloadFiles\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">Here:</a>\n";
+		var files = "&nbsp;&nbsp;May you could download Files from&nbsp;"+"<a href=\"https://github.com/MoonkeyBoy/CUG-LBDS/tree/master/about/DownloadFiles\" style=\"font-size: 18px;font-family: 'Kaiti SC';line-height:2\">Here:</a>\n";
 		arrfiles = new Array(files);
 		delayed_type(arrfiles, 50, take_input);
 	}
